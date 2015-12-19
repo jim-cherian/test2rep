@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65604" started-at="2015-12-19T02:03:53Z" finished-at="2015-12-19T02:04:58Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Login_Scenario.invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="invalid_login" class="sceanrios_TCs.Login_Scenario"/>
+        <method signature="Login_Scenario.valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="valid_login" class="sceanrios_TCs.Login_Scenario"/>
+      </group> <!-- Regression -->
+      <group name="SmokeTest">
+        <method signature="Login_Scenario.valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="valid_login" class="sceanrios_TCs.Login_Scenario"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Test" duration-ms="65604" started-at="2015-12-19T02:03:53Z" finished-at="2015-12-19T02:04:58Z">
+      <class name="sceanrios_TCs.Login_Scenario">
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="invalid_login" duration-ms="21159" started-at="2015-12-19T07:33:54Z" data-provider="DP_invalid_login" finished-at="2015-12-19T07:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ghagh]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="invalid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="invalid_login" duration-ms="18018" started-at="2015-12-19T07:34:15Z" data-provider="DP_invalid_login" finished-at="2015-12-19T07:34:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Raje]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sorry we were unable to complete this step because :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method status="PASS" signature="valid_login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sceanrios_TCs.Login_Scenario@33cf0f]" name="valid_login" duration-ms="25285" started-at="2015-12-19T07:34:33Z" data-provider="DP_valid_login" finished-at="2015-12-19T07:34:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qtpworld2008@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[learn123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qtpworld2008 g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+      </class> <!-- sceanrios_TCs.Login_Scenario -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
